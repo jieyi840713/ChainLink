@@ -9,4 +9,9 @@ contract PriceConsumerV3 {
             0x5fb1616F78dA7aFC9FF79e0371741a747D2a7F22
         );
     }
+
+    function getLatestPrice() public returns (int) {
+        (, int price, , , ) = priceFeed.latestRoundData();
+        return price;
+    }
 }
