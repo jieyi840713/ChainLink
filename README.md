@@ -2,7 +2,7 @@
 
 ## Data Feeds and Computation
 
-### Chapter 1: Chainlink Data Feeds and Computation Introduction
+### Chainlink Data Feeds and Computation Introduction
 
 Now, let's suppose you're building a DeFi dapp, and want to give your users the ability to withdraw ETH worth a certain amount of USD. To fulfill this request, your smart contract (for simplicity's sake we'll call it the "caller contract" from here onwards) must know how much one Ether is worth.
 
