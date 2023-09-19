@@ -28,6 +28,8 @@ So, let's learn how to read from one of these data feeds!
 
 The first thing we want to do, is start our contract and import the Chainlink code.
 
+[Ethereum Data Feeds](https://docs.chain.link/data-feeds/price-feeds/addresses/?network=ethereum&page=1)
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
