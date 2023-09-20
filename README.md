@@ -28,8 +28,13 @@ So, let's learn how to read from one of these data feeds!
 
 The first thing we want to do, is start our contract and import the Chainlink code.
 
+### Chainlink VRF
+
+Chainlink VRF is a way to get randomness from outside the blockchain, but in a proven cryptographic manner. This is important because we always want our logic to be truly incorruptible. Another naive attempt at getting randomness outside the blockchain would be to use an off-chain API call to a service that returns a random number. But if that services goes down, is bribed, hacked, or otherwise, you could potentially be getting back a corrupt random number. Chainlink VRF includes on-chain verification contracts that cryptographically prove that the random number the contract is getting is really random.
+
 [Ethereum Data Feeds](https://docs.chain.link/data-feeds/price-feeds/addresses/?network=ethereum&page=1)
 [https://docs.chain.link/getting-started/conceptual-overview](https://docs.chain.link/getting-started/conceptual-overview)
+[Chainlink Verifiable Randomness Function (Chainlink VRF)](https://docs.chain.link/vrf/v2/subscription/examples/get-a-random-number)
 
 ## Foundry
 
