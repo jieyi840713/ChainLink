@@ -29,6 +29,7 @@ So, let's learn how to read from one of these data feeds!
 The first thing we want to do, is start our contract and import the Chainlink code.
 
 [Ethereum Data Feeds](https://docs.chain.link/data-feeds/price-feeds/addresses/?network=ethereum&page=1)
+[https://docs.chain.link/getting-started/conceptual-overview](https://docs.chain.link/getting-started/conceptual-overview)
 
 ## Foundry
 
